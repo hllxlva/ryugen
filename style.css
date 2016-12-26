@@ -1,0 +1,73 @@
+@charset "UTF-8";
+:root{
+	--main-color: #5d9ab2;
+	--accent-color: #bf6a7a;
+	--dark-color: #2b5566;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:  'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;
+	font-weight: 300;
+	color: #1E1E1E;
+}
+h2{
+	margin: 0;
+	font-family:  'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;
+	font-weight: 300;
+	color: #1E1E1E;
+	text-align: center;
+}
+a{
+	display: block;
+	margin:0 15px;
+	margin-top: 20px;
+	padding:20px;
+	border-radius: 10px;
+	background-color: hsl(70,74%,34%);
+	background-color: ver(--accent-color);
+	color: #FFF;
+	color: ver(--text-bright-color);
+	text-decoration: none;
+	text-align: left;
+}
+.container{
+	background-color: #385723;
+	min-height: 100vh; 
+}
+
+.title{
+	width: 100%;
+	text-align: center;
+}
+
+.title img{
+	width: 90%;
+	max-width: 700px;
+} 
+
+#question{
+	background-color: #FFF3D9;
+	padding: 20px;
+	margin: 5px 30px 0;
+	font-size: 20px;
+	border-radius: 15px;
+}
+#answer{
+	background-color: #FFF3D9;
+	padding: 20px;
+	margin: 5px 30px 0;
+	font-size: 20px;
+	border-radius: 15px;
+}
+#text_s{
+	text-align: center;
+}
+#text_a{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 300;
+}
+#box{
+	padding: 15px;
+}
