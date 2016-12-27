@@ -46,14 +46,28 @@ a{
 	max-width: 700px;
 } 
 
-#question{
+#first{
 	background-color: #FFF3D9;
 	padding: 20px;
 	margin: 5px 30px 0;
 	font-size: 20px;
 	border-radius: 15px;
 }
-#answer{
+#second{
+	background-color: #FFF3D9;
+	padding: 20px;
+	margin: 5px 30px 0;
+	font-size: 20px;
+	border-radius: 15px;
+}
+#true{
+	background-color: #FFF3D9;
+	padding: 20px;
+	margin: 5px 30px 0;
+	font-size: 20px;
+	border-radius: 15px;
+}
+#false{
 	background-color: #FFF3D9;
 	padding: 20px;
 	margin: 5px 30px 0;
